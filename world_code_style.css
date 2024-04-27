@@ -1,0 +1,378 @@
+body{
+    background-color: rgba(250, 235, 215, 0.444);
+  }
+  .header{
+    display: flex;
+    background-color: rgba(224, 209, 209, 0.257);
+    /* position: fixed; */
+  }
+  .button_1 {
+    display: flex; /* Use flexbox to align elements horizontally */
+    align-items: center; /* Align items vertically in the center */
+    margin-left: 14%;
+  }
+  
+  .button_1 a,
+  .button_1 button {
+    margin-right: 10px; /* Add some space between the elements */
+    width: 200px;
+  }
+  
+  .border_4 {
+    height: 35px;
+    width: 100%;
+    background: linear-gradient(to right, rgb(160, 6, 6), #0a0a0a);
+    margin-top: 10px;
+  }
+  
+  .border_4 img {
+    padding-top: 20px;
+    margin-left: 25%;
+  }
+  
+  .border_4 p {
+    font-size: 15px;
+    color: #fff;
+    display: inline;
+    padding: 10px;
+  }
+  
+  .border_4 p:hover {
+    text-decoration: underline;
+  }
+  
+  .first {
+    display: flex;
+    margin-left: 17%;
+  }
+  
+  .first a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 19px;
+  }
+  .logofirst img{
+    border-radius: 50%;
+    width: 70px;
+    margin-left: 40px;
+    margin-top: 6px;
+  }
+  
+  
+  .button {
+    border: 1px solid rgb(85, 24, 24);
+    padding: 10px;
+    background-color: rgb(213, 40, 40);
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  button {
+    border: 1px solid rgb(85, 24, 24);
+    background-color: white;
+    padding: 10px;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: rgb(184, 124, 124);
+  }
+  #menuicon {
+  border: 1px solid rgb(169, 163, 163);
+  float: right;
+  margin-right: 10%;
+  padding: 10px;
+  border-radius: 4px;
+  }
+  #abc{
+  font-size: 20px;
+  text-decoration: none;
+  }
+  .add2 img{
+    width: 50%;
+    height: 15rem;
+    margin-left: 20%;
+    margin-top: 1%;
+  }
+  
+  /* section1left */
+  
+  .first {
+    font-size: 30px;
+  }
+  .mainheading{
+    font-size: 30px;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  .boldheading {
+    font-weight: bold;
+  }
+  
+  .section1 {
+    display: flex;
+    margin-left: 10%;
+  }
+  
+  .leftsection {
+    margin-right: 30px;
+  }
+  
+  .fa-solid {
+    font-size: 25px;
+  }
+  
+  .fa-brands {
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  
+  .logo2 {
+    margin-bottom: 34px;
+  }
+  
+  .read_later {
+    font-size: 20px;
+    margin-left: 68%;
+  }
+  
+  .print {
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  #hualien {
+    font-size: 20px;
+  }
+  
+  .Years {
+    margin-left: 25%;
+    font-size: 25px;
+  }
+  
+  #span {
+    color: red;
+  }
+  
+  .Grey{
+  background-color: rgba(128, 128, 128, 0.104);
+  margin-left: 25%;
+  font-size: 25px;
+  height: 30%;
+  }
+  .youmain{
+    display: flex;
+  }
+  .youheading{
+    position: relative;
+    left: 40px;
+    top: 30px;
+    float: left;
+  }
+  .greylogo{
+    float: right;
+    position: relative;
+    top: 60px;
+    left: 80px;
+  }
+  .greylogo img{
+    border-radius: 50%;
+    /* border: 2px solid red; */
+    width: 100px;
+  }
+  .login{
+    margin-left: 40px;
+  }
+  .line{
+    position: relative;
+    left: 40px;
+    width: 90%;
+  }
+  .Hindu{
+    position: relative;
+    left: 40px;
+    font-size: 25px;
+  }
+  .button{
+    background-color:darkred;
+    color: aliceblue;
+    font-size: 20px;
+    /* padding: 30px; */
+    width: 35%;
+    height: 5%;
+    border-radius: 3%;
+  }
+  
+  /* section1right */
+  .heading h1 {
+    margin-bottom: 30px;
+    color: red;
+  }
+  
+  .rightsection {
+    margin-top: 6%;
+  }
+  .advatisments img{
+    position: relative;
+    bottom: 40px;
+    width: 50%;
+    border:  2px solid black;
+  }
+  
+  .popular {
+    color: darkred;
+    font-size: 23px;
+  }
+  
+  .img img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .para1 {
+    font-size: 25px;
+  }
+  
+  .spam {
+    font-size: 40px;
+  }
+  
+  hr {
+    margin-right: 50%;
+  }
+  
+  /* section2 */
+  .section2 {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+  }
+  
+  .images1section2 {
+    display: flex;
+    margin-left: 10%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.398);
+  }
+  
+  .babaji img,
+  .family img {
+    width: 80%;
+    padding: 1%;
+    margin-top: 5%;
+  }
+  .car img{
+    width: 80%;
+    height: 60%;
+    padding: 1%;
+    margin-top: 5%;
+  }
+  /* section3 */
+  .section3{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .image1section3 {
+    display: flex;
+    margin-left:15%;
+  }
+  .section3_1{
+    width:45% ;
+  }
+  .babaji2{
+    width: 80%;
+    height: 90%;
+    padding: 1%;
+  }
+  .dubai{
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+  }
+  .images1section4{
+    display: flex;
+    margin-left:10%;
+    margin-top: 2%;
+  }
+  .car2{
+    width: 98%;
+    height: 90%;
+    padding: 1%;
+  }
+  .car3{
+    width: 80%;
+    height: 90%;
+    padding: 1%;
+  }
+  #seemore{
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50%;
+    color: black;
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  
+  
+  /* footer */
+  
+  
+  .footer {
+    background-color: #f4f2f2;
+    padding: 30px;
+  }
+  .adjust{
+    margin-top: 3%;
+    margin-left: 14%;
+    margin-right: 14%;
+  
+  }
+  .logo_11{
+    width: 10%;
+    position: relative;
+    bottom:35px;
+  }
+  .social-icons {
+    float: right;
+  }
+  
+  .logo_1{
+    width: 7%;
+    position: relative;
+    bottom:35px;
+    left: 75%;
+  
+  }
+  .logo_2 {
+    width: 7%;
+    position: relative;
+    bottom:47px;
+    left: 60%;
+  }
+  
+  .border_2 {
+    border: 3px solid black;
+    width: 180px;
+    margin-left: 30px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex-basis: 20%; /* Adjust as needed */
+  }
+  
+  .footer-column h2,
+  .footer-column p {
+    padding: 15px;
+    font-size: 20px;
+    margin: 0;
+    font-weight: bold;
+  }
